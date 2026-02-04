@@ -39,6 +39,8 @@ A Vue 3 application for browsing Marvel characters and comics using the Comic Vi
 4. Request an API key (it's free)
 5. Copy your API key and add it to your `.env` file as `COMIC_VINE_API_KEY`
 
+> **Note**: Overuse of the app will lead to rate limiting by ComicVine. Please use the application responsibly to avoid hitting API rate limits.
+
 ### Running the Application
 
 **Development mode** (runs both client and server):
