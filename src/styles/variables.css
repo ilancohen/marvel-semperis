@@ -1,0 +1,155 @@
+/* ============================================
+   COMIC DESIGN SYSTEM - CSS VARIABLES
+   ============================================ */
+:root {
+    --comic-bg-paper: #e0dec8;
+    --comic-bg-cream: #FFFEF7;
+    --comic-bg-secondary: #1A1A1A;
+    --comic-bg-panel: #2C2C2C;
+    --comic-card-bg: rgba(var(--comic-white-rgb), 0.25);
+    --comic-text: #1A1A1A;
+    --comic-text-light: #FFFFFF;
+    --comic-text-muted: #666666;
+
+    --comic-red: #E63946;
+    --comic-red-dark: #C1121F;
+    --comic-red-light: #FF6B7A;
+
+    --comic-blue: #457B9D;
+    --comic-blue-dark: #1D3557;
+    --comic-blue-light: #6BA3D1;
+
+    --comic-yellow-dark: #D4AC0D;
+
+    --comic-purple: #9B59B6;
+    --comic-purple-dark: #7D3C98;
+    --comic-purple-light: #BB8FCE;
+
+    --comic-orange: #E67E22;
+    --comic-orange-dark: #D35400;
+    --comic-orange-light: #F39C12;
+
+    --comic-teal-dark: #138D75;
+
+    --comic-pink-dark: #C2185B;
+
+    --comic-cyan-dark: #0097A7;
+
+    --comic-white: #FFFFFF;
+    --comic-black: #000000;
+    --comic-gray: #222222;
+
+    --comic-bg-dark: #0F0F0F;
+
+    --comic-red-rgb: 230, 57, 70;
+    --comic-blue-rgb: 69, 123, 157;
+    --comic-purple-rgb: 155, 89, 182;
+    --comic-orange-rgb: 230, 126, 34;
+    --comic-black-rgb: 0, 0, 0;
+    --comic-white-rgb: 255, 255, 255;
+
+    /* Color opacity values */
+    --color-opacity-02: 0.02;
+    --color-opacity-04: 0.04;
+    --color-opacity-20: 0.2;
+    --color-opacity-40-shadow: 0.4;
+    --color-opacity-50: 0.5;
+    --color-opacity-60: 0.6;
+
+    --comic-dark-bg: #0F1419;
+    --comic-dark-panel: #252F3F;
+    --comic-dark-text: #E8EAED;
+
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+
+    --border-medium: 4px;
+    --border-comic: 8px;
+
+    --shadow-sm: 0 2px 8px rgba(var(--comic-black-rgb), var(--color-opacity-40-shadow));
+    --shadow-md: 0 4px 16px rgba(var(--comic-black-rgb), var(--color-opacity-50));
+
+    --font-comic: 'Bangers', cursive;
+    --font-body: 'Open Sans', sans-serif;
+
+    --component-color: var(--comic-red);
+    --component-color-dark: var(--comic-red-dark);
+    --component-color-light: var(--comic-red-light);
+    --component-color-rgb: var(--comic-red-rgb);
+    --component-shadow: 0 4px 20px rgba(var(--comic-red-rgb), var(--color-opacity-40-shadow));
+
+    --theme-toggle-border: var(--comic-red);
+    --theme-toggle-color: var(--comic-red-light);
+    --theme-toggle-hover-shadow: var(--component-shadow);
+    --theme-toggle-hover-border: var(--component-color);
+
+    --comic-label-color: var(--comic-teal-dark);
+    --comic-label-text-shadow: var(--comic-gray);
+
+    --comic-border-color: var(--comic-blue-dark);
+    --comic-border-color-hover: var(--comic-blue);
+    --comic-border-color-active: var(--comic-red-dark);
+
+    --bg-grid-rgb: var(--comic-black-rgb);
+}
+
+[data-theme="dark"] {
+    --comic-bg-paper: #1A2332;
+    --comic-bg-cream: #1A2332;
+    --comic-bg-secondary: var(--comic-dark-panel);
+    --comic-bg-panel: var(--comic-dark-panel);
+    --comic-card-bg: var(--comic-bg-secondary);
+    --comic-text: var(--comic-dark-text);
+    --comic-text-light: var(--comic-white);
+    --comic-text-muted: #A8B0C5;
+
+    --theme-toggle-border: var(--comic-blue-dark);
+    --theme-toggle-color: var(--comic-blue-light);
+    --theme-toggle-hover-shadow: 0 4px 20px rgba(var(--comic-blue-rgb), var(--color-opacity-40-shadow));
+    --theme-toggle-hover-border: var(--comic-blue);
+
+    --comic-label-color: var(--comic-yellow-dark);
+    --comic-label-text-shadow: var(--comic-red);
+
+    --comic-border-color: var(--comic-blue-light);
+    --comic-border-color-hover: var(--comic-blue);
+    --comic-border-color-active: var(--comic-red);
+
+    --bg-grid-rgb: var(--comic-white-rgb);
+}
+
+[data-color="red"] {
+    --component-color: var(--comic-red);
+    --component-color-dark: var(--comic-red-dark);
+    --component-color-light: var(--comic-red-light);
+    --component-color-rgb: var(--comic-red-rgb);
+    --component-shadow: 0 4px 20px rgba(var(--comic-red-rgb), var(--color-opacity-40-shadow));
+}
+
+[data-color="blue"] {
+    --component-color: var(--comic-blue);
+    --component-color-dark: var(--comic-blue-dark);
+    --component-color-light: var(--comic-blue-light);
+    --component-color-rgb: var(--comic-blue-rgb);
+    --component-shadow: 0 4px 20px rgba(var(--comic-blue-rgb), var(--color-opacity-40-shadow));
+}
+
+[data-color="purple"] {
+    --component-color: var(--comic-purple);
+    --component-color-dark: var(--comic-purple-dark);
+    --component-color-light: var(--comic-purple-light);
+    --component-color-rgb: var(--comic-purple-rgb);
+    --component-shadow: 0 4px 20px rgba(var(--comic-purple-rgb), var(--color-opacity-40-shadow));
+}
+
+[data-color="orange"] {
+    --component-color: var(--comic-orange);
+    --component-color-dark: var(--comic-orange-dark);
+    --component-color-light: var(--comic-orange-light);
+    --component-color-rgb: var(--comic-orange-rgb);
+    --component-shadow: 0 4px 20px rgba(var(--comic-orange-rgb), var(--color-opacity-40-shadow));
+}
+

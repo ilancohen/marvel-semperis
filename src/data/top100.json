@@ -1,0 +1,402 @@
+[
+  {
+    "id": 2268,
+    "name": "Thor"
+  },
+  {
+    "id": 2267,
+    "name": "Hulk"
+  },
+  {
+    "id": 1505,
+    "name": "Professor X"
+  },
+  {
+    "id": 2151,
+    "name": "Mr. Fantastic"
+  },
+  {
+    "id": 2190,
+    "name": "Invisible Woman"
+  },
+  {
+    "id": 3176,
+    "name": "Betsy Braddock"
+  },
+  {
+    "id": 3202,
+    "name": "Nick Fury"
+  },
+  {
+    "id": 3200,
+    "name": "Black Widow"
+  },
+  {
+    "id": 2247,
+    "name": "Hank Pym"
+  },
+  {
+    "id": 1504,
+    "name": "Vision"
+  },
+  {
+    "id": 2157,
+    "name": "Cable"
+  },
+  {
+    "id": 4563,
+    "name": "Sabretooth"
+  },
+  {
+    "id": 4562,
+    "name": "Jubilee"
+  },
+  {
+    "id": 1525,
+    "name": "Punisher"
+  },
+  {
+    "id": 4557,
+    "name": "Wolfsbane"
+  },
+  {
+    "id": 2502,
+    "name": "Silver Surfer"
+  },
+  {
+    "id": 2161,
+    "name": "Domino"
+  },
+  {
+    "id": 2158,
+    "name": "Warpath"
+  },
+  {
+    "id": 4279,
+    "name": "Forge"
+  },
+  {
+    "id": 2503,
+    "name": "Hercules"
+  },
+  {
+    "id": 3179,
+    "name": "Mr. Sinister"
+  },
+  {
+    "id": 3182,
+    "name": "Blob"
+  },
+  {
+    "id": 3190,
+    "name": "Northstar"
+  },
+  {
+    "id": 2159,
+    "name": "Boom-Boom"
+  },
+  {
+    "id": 2175,
+    "name": "Sebastian Shaw"
+  },
+  {
+    "id": 2469,
+    "name": "Franklin Richards"
+  },
+  {
+    "id": 2164,
+    "name": "Phoenix Force"
+  },
+  {
+    "id": 3457,
+    "name": "Thunderbolt Ross"
+  },
+  {
+    "id": 1926,
+    "name": "War Machine"
+  },
+  {
+    "id": 3426,
+    "name": "Husk"
+  },
+  {
+    "id": 4558,
+    "name": "Magma"
+  },
+  {
+    "id": 3181,
+    "name": "Siryn"
+  },
+  {
+    "id": 3526,
+    "name": "Dum Dum Dugan"
+  },
+  {
+    "id": 3175,
+    "name": "Sunfire"
+  },
+  {
+    "id": 4559,
+    "name": "Sage"
+  },
+  {
+    "id": 2248,
+    "name": "Rick Jones"
+  },
+  {
+    "id": 2250,
+    "name": "Red Skull"
+  },
+  {
+    "id": 3507,
+    "name": "Odin"
+  },
+  {
+    "id": 2478,
+    "name": "Harry Osborn"
+  },
+  {
+    "id": 2484,
+    "name": "Betty Brant"
+  },
+  {
+    "id": 2244,
+    "name": "Chamber"
+  },
+  {
+    "id": 3172,
+    "name": "Black Knight"
+  },
+  {
+    "id": 4484,
+    "name": "Scorpion"
+  },
+  {
+    "id": 6733,
+    "name": "Eddie Brock"
+  },
+  {
+    "id": 2497,
+    "name": "Mockingbird"
+  },
+  {
+    "id": 4555,
+    "name": "Dust"
+  },
+  {
+    "id": 2156,
+    "name": "Shatterstar"
+  },
+  {
+    "id": 6108,
+    "name": "Ghost Rider (Blaze)"
+  },
+  {
+    "id": 3445,
+    "name": "Betty Ross"
+  },
+  {
+    "id": 4459,
+    "name": "Vulture"
+  },
+  {
+    "id": 6757,
+    "name": "Longshot"
+  },
+  {
+    "id": 3124,
+    "name": "Foggy Nelson"
+  },
+  {
+    "id": 6144,
+    "name": "Lilandra"
+  },
+  {
+    "id": 3423,
+    "name": "Callisto"
+  },
+  {
+    "id": 3513,
+    "name": "Volstagg"
+  },
+  {
+    "id": 3189,
+    "name": "Aurora"
+  },
+  {
+    "id": 2215,
+    "name": "Wong"
+  },
+  {
+    "id": 4552,
+    "name": "Elixir"
+  },
+  {
+    "id": 2475,
+    "name": "Kraven the Hunter"
+  },
+  {
+    "id": 2163,
+    "name": "Frenzy"
+  },
+  {
+    "id": 4567,
+    "name": "Exodus"
+  },
+  {
+    "id": 4799,
+    "name": "Ben Urich"
+  },
+  {
+    "id": 5010,
+    "name": "Puck"
+  },
+  {
+    "id": 4281,
+    "name": "Fantomex"
+  },
+  {
+    "id": 3511,
+    "name": "Hogun"
+  },
+  {
+    "id": 3512,
+    "name": "Fandral"
+  },
+  {
+    "id": 3534,
+    "name": "Lockjaw"
+  },
+  {
+    "id": 4988,
+    "name": "Man-Thing"
+  },
+  {
+    "id": 2242,
+    "name": "Ultron"
+  },
+  {
+    "id": 2264,
+    "name": "Kang"
+  },
+  {
+    "id": 1935,
+    "name": "Dagger"
+  },
+  {
+    "id": 2265,
+    "name": "Jessica Jones"
+  },
+  {
+    "id": 4315,
+    "name": "Doc Samson"
+  },
+  {
+    "id": 2481,
+    "name": "Mole Man"
+  },
+  {
+    "id": 4832,
+    "name": "Nighthawk"
+  },
+  {
+    "id": 3422,
+    "name": "Dark Beast"
+  },
+  {
+    "id": 3196,
+    "name": "Mariko Yashida"
+  },
+  {
+    "id": 4578,
+    "name": "Taskmaster"
+  },
+  {
+    "id": 2176,
+    "name": "Selene"
+  },
+  {
+    "id": 4263,
+    "name": "Pepper Potts"
+  },
+  {
+    "id": 3709,
+    "name": "M.O.D.O.K."
+  },
+  {
+    "id": 3193,
+    "name": "Leech"
+  },
+  {
+    "id": 5047,
+    "name": "Guardian"
+  },
+  {
+    "id": 4568,
+    "name": "Black Tom Cassidy"
+  },
+  {
+    "id": 2262,
+    "name": "Kate Bishop"
+  },
+  {
+    "id": 3114,
+    "name": "Uncle Ben"
+  },
+  {
+    "id": 2470,
+    "name": "Valeria Richards"
+  },
+  {
+    "id": 5017,
+    "name": "Shaman"
+  },
+  {
+    "id": 3420,
+    "name": "Viper"
+  },
+  {
+    "id": 2216,
+    "name": "Clea"
+  },
+  {
+    "id": 3508,
+    "name": "Heimdall"
+  },
+  {
+    "id": 2174,
+    "name": "Thunderbird"
+  },
+  {
+    "id": 2252,
+    "name": "Wrecker"
+  },
+  {
+    "id": 5009,
+    "name": "Heather McNeil Hudson"
+  },
+  {
+    "id": 4822,
+    "name": "Abe Jenkins"
+  },
+  {
+    "id": 3180,
+    "name": "Sauron"
+  },
+  {
+    "id": 2165,
+    "name": "Proteus"
+  },
+  {
+    "id": 6089,
+    "name": "Deathbird"
+  },
+  {
+    "id": 4811,
+    "name": "Justice"
+  },
+  {
+    "id": 3178,
+    "name": "Trish Tilby"
+  }
+]

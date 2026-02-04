@@ -1,0 +1,11 @@
+services:
+  # Combined web service: serves Vue app and proxies API requests
+  - type: web
+    name: marvel-spa
+    env: node
+    buildCommand: pnpm install && pnpm build
+    startCommand: pnpm start
+    envVars:
+      - key: COMIC_VINE_API_KEY
+        sync: false  # Set this in Render dashboard
+    healthCheckPath: /health

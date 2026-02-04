@@ -1,0 +1,3 @@
+/* Main CSS file - imports all style modules */
+@import url('./variables.css');
+@import url('./base.css');

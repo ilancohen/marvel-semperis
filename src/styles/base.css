@@ -1,0 +1,85 @@
+/* ============================================
+   RESET & BASE STYLES
+   ============================================ */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-body);
+    background: var(--comic-bg-cream);
+    background-image:
+        repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(var(--bg-grid-rgb), var(--color-opacity-04)) 2px, rgba(var(--bg-grid-rgb), var(--color-opacity-04)) 4px),
+        repeating-linear-gradient(90deg, transparent, transparent 2px, rgba(var(--bg-grid-rgb), var(--color-opacity-02)) 2px, rgba(var(--bg-grid-rgb), var(--color-opacity-02)) 4px);
+    color: var(--comic-text);
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+   .comic-subheading {
+    font-family: var(--font-comic);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--comic-red);
+    margin-bottom: var(--spacing-sm);
+}
+
+.comic-body {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+   .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ============================================
+   COMPONENTS
+   ============================================ */
+
+/* Shared panel/card base styles */
+.card {
+    background: var(--comic-bg-panel);
+    border: var(--border-comic) solid var(--component-color-dark);
+    border-radius: 0;
+    padding: var(--spacing-lg);
+    margin: var(--spacing-md);
+    transition: all 0.3s ease, background-color 0.3s ease;
+    box-shadow: var(--shadow-md);
+}
+
+.comic-body {
+    color: var(--comic-text-light);
+}
+
+
+/* Character Name */
+.character-name {
+    font-family: var(--font-comic);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: var(--component-color-light);
+    margin-bottom: var(--spacing-sm);
+    text-align: center;
+    text-shadow: 2px 2px 0px var(--comic-bg-dark);
+}
+
+
